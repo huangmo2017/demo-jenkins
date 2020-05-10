@@ -15,7 +15,7 @@ public class IndexController {
 
     @GetMapping("/index1")
     public String index1() {
-        return "index1";
+        return "indetestsetset";
     }
 
 
