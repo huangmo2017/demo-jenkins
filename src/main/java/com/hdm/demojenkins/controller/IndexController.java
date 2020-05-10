@@ -13,8 +13,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class IndexController {
 
-    @GetMapping("/")
-    public String index() {
-        return "indextest";
+    @GetMapping("/index1")
+    public String index1() {
+        return "index1";
+    }
+
+
+    @GetMapping("index2")
+    public String index2() {
+        return "index2";
     }
 }
